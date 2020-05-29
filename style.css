@@ -1,0 +1,23 @@
+div.parent
+{
+    background: blue;
+    color: black;
+    padding: 10px;
+}
+div.parent div
+{
+    background: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+div.parent p
+{
+    background: red;
+    color: white;
+}
+div.parent aside >p
+{
+    background: orange;
+    color: aqua;
+}
